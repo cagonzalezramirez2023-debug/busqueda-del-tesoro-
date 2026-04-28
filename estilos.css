@@ -1,0 +1,77 @@
+body {
+font-family: Arial;
+text-align: center;
+hackground-color: rgb(153, 153, 255);
+}
+.grid {
+
+display: gridi
+grid-template-columns: repeat(3, 250px);
+gар: 350k
+justify-content: center; 
+}
+
+
+.cell{
+width: 250px;
+height: 200px;
+background-color:lightblueg
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer; 
+}
+
+button {
+width: 100px;
+height: Silpx;
+background-color: rgb(119, 20, 20);
+border-radius: όρες
+text-align: center;
+text-size-adjust: 15px;
+color: white;
+cursor: pointer;
+}
+@media (max-width: 1888px) {
+
+body{
+background-color: #1a1a2e; /*oscuro tipo gamer */
+color: white; 
+}
+
+  h1{
+font-siz: 1.5em; 
+  }
+
+.grid{
+
+grid-template-columns: repeat(3, 1fr); /*flexible*/
+grid-template-rows: repeat(3, 1fr);
+height: 70wh; /*el grid ocupa casi toda la pantalla*/
+
+.call {
+width: 100%;
+height: 100%,
+background-color: #16213e;
+border: 2px solid #0f3460;
+font-size: 1.5em;
+}
+  
+#respuesta {
+color: white;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+#boton {
+width: 100%;
+height: 30%;
+background-color:#e945660;
+funt-size: 1em;
+} 
+  
+#boton button {
+text-align: center; 
+}
